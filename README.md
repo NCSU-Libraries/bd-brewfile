@@ -2,7 +2,7 @@
 
 This `Brewfile` in this repository was generated from NC State University Libraries' born-digital processing workstation. We use Homebrew to manage the majority of the applications we use in our work. This file can be used on Mac OS and Linux to quickly install a set of packages we find useful for digital archival extracting and reporting procedures.
 
-## Install packages from a Brewfiles
+## Install packages from a Brewfile
 
 Assuming [Homebrew](https://brew.sh/) is installed on your computer, download the Brewfile from this repository and run
 
