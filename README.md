@@ -14,11 +14,11 @@ This Brewfile is likely to change over time. It is self-documenting.
 
 ## Helpful background
 
-The article [macOS migrations with Brewfile](https://openfolder.sh/macos-migrations-with-brewfile) provides a useful overview of of the `bundle` Homebrew package, used in generating and installing packages through referencing Brewfiles. It also goes into some detail about Homebrew, more generally. 
+The article [macOS migrations with Brewfile](https://openfolder.sh/macos-migrations-with-brewfile) provides a useful overview of the `bundle` Homebrew package, used in generating and installing packages through referencing Brewfiles. It also goes into some detail about Homebrew, more generally. 
 
 ## Author/Maintainer
 
-- Brian Dietz
+- Brian Dietz (bjdietz at ncsu dot edu)
 
 ## License
 
