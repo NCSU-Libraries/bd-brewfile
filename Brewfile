@@ -34,6 +34,9 @@ brew "disktype"
 #installs duff, to quickly find duplicates in a set of files from the command-line 
 brew "duff"
 
+# installs exiftool, a Perl lib for reading and writing EXIF metadata
+brew "exiftool"
+
 # installs fdupes, to identify or delete duplicate files
 brew "fdupes"
 
@@ -51,6 +54,9 @@ brew "libarchive"
 
 # installs libwef, library for support of the Expert Witness Compression Format
 brew "libewf"
+
+# installs MediaInfo, for unified display of technical and tag data for audio/video
+brew "media-info"
 
 # installs sleuthkit, forensic toolkit
 brew "sleuthkit"
