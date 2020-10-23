@@ -30,6 +30,8 @@ We use (and love) Tessa Walsh's [Brunnhilde](https://github.com/tw4l/brunnhilde)
 
 _Most_ dependencies will be installed via the Brewfile, so do that before installing Brunnhilde. Note you'll also need to install hfsexplorer. See Tessa's instructions for that. 
 
+You can also manage packages with pip. See [12.3. Managing Packages with pip](https://docs.python.org/3/tutorial/venv.html#managing-packages-with-pip).
+
 ## ClamAV set up
 
 While clamav IS available as a Homebrew package, you'll need to do some additional work to get it running. This has worked for us (clamav will be installed via the Brewfile, so you may skip `brew install clamav`):
