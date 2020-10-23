@@ -16,6 +16,24 @@ This Brewfile is likely to change over time. It is self-documenting.
 
 The article [macOS migrations with Brewfile](https://openfolder.sh/macos-migrations-with-brewfile) provides a useful overview of the `bundle` Homebrew package, used in generating and installing packages through referencing Brewfiles. It also goes into some detail about Homebrew, more generally. 
 
+We haven't tesetd Homebrew on Linux, but there is [documentation available](https://docs.brew.sh/Homebrew-on-Linux) on the Homebrew site.
+
+## Other applications NOT in the Brewfile
+
+## Brunnhilde
+
+We use (and love) Tessa Walsh's [Brunnhilde](https://github.com/tw4l/brunnhilde), but, unfortunately, it's not available through Homebrew. If you have `pip` set up, you can run
+
+`sudo pip install brunnhilde`
+
+_Most_ dependencies will be installed via the Brewfile, so do that before installing Brunnhilde. Note you'll also need to install hfsexplorer. See Tessa's instructions for that. 
+
+## ClamAV set up
+
+While clamav IS available as a Homebrew package, you'll need to do some additional work to get it running. This has worked for us (clamav will be installed via the Brewfile, so you may skip `brew install clamav`):
+
+(Get ClamAV running on Mac OS X (using Homebrew))[https://gist.github.com/subharanjanm/be799ee57854109c3860dde9ad823754]
+
 ## Author/Maintainer
 
 - Brian Dietz (bjdietz at ncsu dot edu)
