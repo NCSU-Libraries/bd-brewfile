@@ -22,7 +22,7 @@ We haven't tesetd Homebrew on Linux, but there is [documentation available](http
 
 The following assumes you have already run the `brew dump` command.
 
-## Brunnhilde
+### Brunnhilde
 
 We use (and love) Tessa Walsh's [Brunnhilde](https://github.com/tw4l/brunnhilde), but, unfortunately, it's not available through Homebrew. If you have `pip` set up, you can run
 
@@ -32,7 +32,7 @@ _Most_ dependencies will be installed via the Brewfile, so do that before instal
 
 You can also manage packages with pip. See [12.3. Managing Packages with pip](https://docs.python.org/3/tutorial/venv.html#managing-packages-with-pip).
 
-## ClamAV set up
+### ClamAV set up
 
 While clamav IS available as a Homebrew package, you'll need to do some additional work to get it running. This has worked for us (clamav will be installed via the Brewfile, so you may skip `brew install clamav`):
 
