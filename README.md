@@ -47,7 +47,7 @@ On the subject of pip, you can also manage packages with pip. See [12.3. Managin
 
 While clamav IS available as a Homebrew package, you'll need to do some additional work to get it running. This has worked for us (clamav will be installed via the Brewfile, so you can skip `brew install clamav`):
 
-[Get ClamAV running on Mac OS X (using Homebrew](https://gist.github.com/subharanjanm/be799ee57854109c3860dde9ad823754)
+[Get ClamAV running on Mac OS X (using Homebrew)](https://gist.github.com/subharanjanm/be799ee57854109c3860dde9ad823754)
 
 ## Acknowledgments
 
