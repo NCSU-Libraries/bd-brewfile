@@ -51,7 +51,7 @@ While clamav IS available as a Homebrew package, you'll need to do some addition
 
 ## Acknowledgments
 
-I'd like to thank my late friend and colleague Bret Davidson for first suggesting Brewfile as a lightweight approach to sharing one's processing environment. I'd also like to thank Robert Manly of Washington University in St. Louis for his willingness to test this out, and for his insightful feedback and suggestions that have made their way into this README.
+I'd like to thank my late friend and colleague Bret Davidson for first suggesting Brewfile as a lightweight approach to sharing one's processing environment. I'd also like to thank Robert Manley of Washington University in St. Louis for his willingness to test this out, and for his insightful feedback and suggestions that have made their way into this README.
 
 ## Author/Maintainer
 
