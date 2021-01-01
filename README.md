@@ -16,7 +16,16 @@ This Brewfile is likely to change over time.
 
 ### Please note!
 
-If you are already using Homebrew to manage things, installing packages in reference to this Brewfile _should_ add to what you already have installed. However, for the sake of safety, please first make a back-up by creating your own Brewfile by typing in a terminal:
+If you are already using Homebrew to manage things, installing packages in reference to this Brewfile _should_ install only packages you don't have installed and skip over the things you do have installed. While brewing, you should see output in your terminal that looks like this:
+
+```
+Installing tree
+Installing twarc
+Using richardlehane/digipres/siegfried
+Installing youtube-dl
+```
+
+But, just to be safe, please first make a back-up by creating your own Brewfile by typing in a terminal:
 
 `brew bundle dump`
 
