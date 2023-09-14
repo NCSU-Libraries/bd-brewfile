@@ -16,6 +16,9 @@ brew "bulk_extractor"
 # installs cdparanoia, an audio extraction tool for sampling CDs
 brew "cdparanoia"
 
+# installs cd-info
+brew "libcdio"
+
 # installs cdrdao, to record CDs in Disk-At-Once mode
 brew "cdrdao"
 
